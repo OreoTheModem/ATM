@@ -57,7 +57,7 @@ public class Main {
         //Scanner
         Scanner atm = new Scanner(System.in);
 
-        System.out.println("Enter the amount of money you want to withdraw");
+        System.out.println("Enter the amount of money you would like to withdraw");
         withdraw = atm.nextInt();
 
         if (withdraw < balance) {
@@ -73,7 +73,7 @@ public class Main {
         //Scanner
         Scanner atm = new Scanner(System.in);
 
-        System.out.println("Enter the amount of money you want to deposit");
+        System.out.println("Enter the amount of money you would like to deposit");
         deposit = atm.nextInt();
 
         balance = balance + deposit;
